@@ -8,7 +8,8 @@ node
 express
 ajax
 文件分布如下
-- appBlog.js        后端程序主文件
+- appBlog.js      后端程序接口的主文件
+
 /model  处理数据的文件夹
 - blog.js           处理 blog 数据存取的文件
 - comment.js        处理 comment 数据的文件
