@@ -23,7 +23,7 @@ ajax
 /template  前端页面
 - blog_index.html   博客主页的 html 文件
 - blog_detail.html  博客详情页面 html 文件
-运行程序方式
-node appBlog.js
+
+运行程序方式     node appBlog.js
 
 可以根据自己的喜好 进行CSS页面布局
