@@ -14,7 +14,7 @@ const ModelComment = function(form) {
     this.author = form.author || ''
     this.content = form.content || ''
     this.blog_id = form.blog_id || 0
-    // 生成一个 unix 时间, unix 时间是什么, 上课会说
+    // 生成一个 unix 时间
     this.created_time = Math.floor(new Date() / 1000)
 }
 
@@ -64,5 +64,5 @@ b.save = function() {
 }
 
 // 导出一个对象的时候用 module.exports = 对象 的方式
-// 这样引用的时候就可以直接把模块当这个对象来用了(具体看使用方法)
+// 这样引用的时候就可以直接把模块当这个对象来用了
 module.exports = b
