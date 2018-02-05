@@ -16,7 +16,7 @@ ajax
 
 /db     存放数据的文件夹
 - comment.json      存储 comment (评论区)数据的文件
-- blog.json         存储 blog 数据的文件(相当于数据库)
+- blog.json         存储 blog 数据的文件
 
 /route  处理数据的路由 文件
 
